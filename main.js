@@ -5,3 +5,6 @@ $(".button").click(function () {
     $( ".nav-wrapper" ).slideUp("fast");
   }
 });
+$(document).ready(function(){
+			$('#menu').slicknav();
+});
