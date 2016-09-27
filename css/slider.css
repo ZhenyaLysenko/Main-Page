@@ -1,0 +1,64 @@
+ /* jssor slider bullet navigator skin 03 css */
+        /*
+        .jssorb03 div           (normal)
+        .jssorb03 div:hover     (normal mouseover)
+        .jssorb03 .av           (active)
+        .jssorb03 .av:hover     (active mouseover)
+        .jssorb03 .dn           (mousedown)
+        */
+       @media screen and (min-width: 320px) and (max-width: 768px) {
+            #jssor_1 {
+        display: none;
+    }
+}
+
+
+        .jssorb03 {
+            position: absolute;
+        }
+        .jssorb03 div, .jssorb03 div:hover, .jssorb03 .av {
+            position: absolute;
+            /* size of bullet elment */
+            width: 21px;
+            height: 21px;
+            text-align: center;
+            line-height: 21px;
+            color: white;
+            font-size: 12px;
+            background: url('../images/arrow.png') no-repeat;
+            overflow: hidden;
+            cursor: pointer;
+        }
+        .jssorb03 div { background-position: -5px -40px; }
+        .jssorb03 div:hover, .jssorb03 .av:hover { background-position: -35px -4px; }
+        .jssorb03 .av { background-position: -155px -41px; }
+       
+        
+        /* jssor slider arrow navigator skin 03 css */
+        /*
+        .jssora03l                  (normal)
+        .jssora03r                  (normal)
+        .jssora03l:hover            (normal mouseover)
+        .jssora03r:hover            (normal mouseover)
+        .jssora03l.jssora03ldn      (mousedown)
+        .jssora03r.jssora03rdn      (mousedown)
+        */
+        .jssora03l, .jssora03r {
+            display: block;
+            position: absolute;
+            /* size of arrow element */
+            width: 39px;
+            height: 118px;
+            cursor: pointer;
+            background: url('../images/arrow.png') no-repeat;
+            overflow: hidden;
+        }
+        .jssora03l { background-position: 10px 40px;
+            background-color: #e4e4e4;
+                    
+         }
+               .jssora03r {
+                    transform: rotate(180deg);
+                background-position: 10px 45px; 
+                        background-color: #e4e4e4;
+}
